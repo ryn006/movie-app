@@ -1,0 +1,150 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232323">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="18dp"
+    android:text="LATEST MOVIES"
+    android:layout_marginBottom="25dp"
+    android:textSize="45dp"
+    android:textColor="#EEEEEE"
+    android:fontFamily="sans-serif-condensed-medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More movies to be updated shortly!"
+        android:textColor="#53B8BB"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/tv"
+        android:layout_marginLeft="15dp"/>
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+  android:src="@mipmap/cap"
+     android:id="@+id/cap"
+     android:contentDescription="TODO" />
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+      android:src="@mipmap/joker"/>
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+      android:src="@mipmap/n"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/a"/>
+
+ <ImageView
+     android:layout_width="100dp"
+     android:layout_height="wrap_content"
+     android:src="@mipmap/gun" />
+</LinearLayout>
+
+
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOLLYWOOD"
+        android:layout_marginLeft="18dp"
+        android:textColor="#FFF338"
+        android:textSize="35dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="OLD"
+       android:onClick="old"
+       android:layout_marginBottom="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Black Widow"
+        android:onClick="blackwidow"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escape Room 2"
+        android:onClick="escaperoom2"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The father"
+        android:onClick="thefather"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="snowden"
+        android:onClick="snowden"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:text="BOLLYWOOD"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="35dp"
+        android:textColor="#FFF338"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shershaah"
+        android:onClick="shershaah"
+    android:layout_marginBottom="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jhund"
+        android:onClick="jhund"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="83"
+        android:onClick="et"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dial 100"
+        android:onClick="dial"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="anek"
+        android:onClick="anek"/>
+
+
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
